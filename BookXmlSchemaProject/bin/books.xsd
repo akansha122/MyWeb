@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.zensar.com/books"
+	xmlns:zen="http://www.zensar.com/books" elementFormDefault="qualified">
+	<element name="book-info">
+		<complexType>
+			<sequence>
+				<element name="book" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="book-id">
+								<simpleType>
+									<restriction base="int">
+										<minInclusive value="1001"></minInclusive>
+										<maxInclusive value="9999"></maxInclusive>
+										<totalDigits value="4"></totalDigits>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="title">
+								<simpleType>
+									<restriction base="string">
+										<minLength value="3"></minLength>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="author" type="string" maxOccurs="unbounded"/>
+							<element name="price" type="float" minOccurs="0"/>
+							<element name="publish_date" type="date"/> 
+						 </sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT movie-info (movie+)>
+<!ELEMENT movie (code,title,release-date,theater+)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT release-date (day,month,year)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT theater (#PCDATA)>

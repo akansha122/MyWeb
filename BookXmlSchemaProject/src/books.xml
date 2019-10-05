@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zen:book-info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:zen="http://www.zensar.com/books" xsi:schemaLocation="http://www.zensar.com/books books.xsd ">
+   <zen:book>
+    <zen:book-id>1001</zen:book-id>
+    <zen:title>Java</zen:title>
+    <zen:author> Chetan_bhagat</zen:author>
+    <zen:publish_date>2001-02-05</zen:publish_date>
+   </zen:book>
+   
+   <zen:book>
+    <zen:book-id>1002</zen:book-id>
+    <zen:title>MySQL</zen:title>
+
+    <zen:author>Durga_Soft</zen:author>
+    <zen:publish_date>1999-10-23</zen:publish_date>
+   </zen:book>
+ </zen:book-info>
