@@ -1,0 +1,22 @@
+Git:
+https://git-scm.com/downloads
+
+git --version
+git --help
+
+git config --global user.name "Akansha Shah"
+git config --global user.email "shahakansha23@gmail.com"
+git config --list
+
+#create local repository:
+C:\Users\Zensar123>D:
+D:\>cd D:\Akansha\Assignment
+D:\Akansha\Assignment>git init PhoenixAppRepo
+
+#GitHub Directory:
+D:\Akansha\Assignment\PhoenixAppRepoo>git remote add origin https://github.com/akansha122/MyAppData.git
+git remote show
+git push --set-upstream origin master
+git init
+git add *
+git status
